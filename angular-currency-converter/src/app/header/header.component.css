@@ -9,11 +9,19 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+  }
 }
 
 .header h1 {
   font-size: 32px;
   color: rgba(0, 0, 0, 0.715);
+
+  @media (max-width: 640px) {
+    margin-top: 0;
+  }
 }
 
 .header p {
